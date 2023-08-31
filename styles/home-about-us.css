@@ -14,34 +14,24 @@
 }
 
 .about-us-grid{
-    display: grid;
-    grid-template-columns: 330px 330px 330px;
-    justify-content: space-evenly;
     margin-top: 20px;
-}
 
-
-@media (max-width: 1045px){
-    .about-us-grid{
-        grid-template-columns: 330px 330px;
-    }
-
-
-    .our-vision{
-        text-align: center;
-    }
-
-}
-
-@media (max-width: 690px){
-    .about-us-grid{
-        grid-template-columns: 330px;
-    }
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10%;
+    column-gap: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 .what-we-do, .our-mission, .our-vision{
     background-color: white;
     height: 410px;
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px 10px 0px 0px;
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
     font-family: lato;

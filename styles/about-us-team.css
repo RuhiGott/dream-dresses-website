@@ -14,23 +14,19 @@
 }
 
 .team-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     row-gap: 70px;
+    column-gap: 17%;
     margin-left: 8%;
     margin-right: 8%;
-    margin-bottom: 70px;
 }
 
 .team-member{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.wrapper-member{
-    margin: auto;
 }
 
 .team-image-pink{
@@ -89,31 +85,28 @@
     font-size: 40px;
     font-weight: 700;
     color: rgb(45,56,95);
-    padding-top: 90px;
     text-align: center;
     margin-bottom: 80px; 
+    margin-top: 120px;
+
 }
 
 .board-grid{
-    display: grid;
-    grid-template-columns: 200px 200px;
-    column-gap: 80px;
+    display: flex;
     justify-content: center;
-}
-
-@media (max-width: 960px){
-    .team-grid{
-        grid-template-columns: 1fr 1fr;
-    }
+    flex-wrap: wrap;
+    row-gap: 17%;
+    column-gap: 12%;
+    row-gap: 50px;
 
 }
 
     
 @media (max-width: 530px){
     .team-grid{
-        justify-content: center;
-        grid-template-columns: 198px 198px;
-
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 90px;
     }
         
     .team-image-pink{
@@ -149,6 +142,16 @@
     }
 
     .board-grid{
-        column-gap: 5px;
+        margin-right: 0%;
+        margin-left: 0%
     }
+}
+
+@media (max-width: 480px){
+    .team-grid{
+        margin-left: 1%;
+        margin-right: 1%;
+        column-gap: 11%;
+    }
+  
 }

@@ -1,8 +1,6 @@
 .home6{
     background-color: rgb(255, 249, 228);
-    padding-left: 3%;
-    padding-right: 3%;
-    height: 615px;
+    height: 630px;
 }
 
 .help-title{
@@ -13,15 +11,19 @@
     color: rgb(45,56,95);
     text-align: center;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 
 .help-grid{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 10%;
+    column-gap: 7%;
+    margin-left: 3%;
+    margin-right: 3%;
 }
+
 
 .donate-clothes, .volunteer, .carry-a-bag, .fundraise{
     position: relative;
@@ -190,37 +192,14 @@
     background-color: rgb(160, 198, 234);
 }
 
-@media (max-width: 1070px){
+@media (max-width: 1255px){
     .home6{
         height: 1000px;
     }
-
-    .help-grid{
-        grid-template-columns: 233px 233px;
-    }
-
-    .donate-clothes, .volunteer{
-        margin-bottom: 30px;
-    }
-
-    
 }
 
-@media (max-width: 640px){
+@media (max-width: 533px){
     .home6{
         height: 1800px;
-    }
-
-    .help-grid{
-        grid-template-columns: 233px;
-    }
-    
-
-    .donate-clothes, .volunteer, .carry-a-bag{
-        margin-bottom: 30px;
-    }
-
-    .fundraise{
-        margin-bottom: 100px;
     }
 }

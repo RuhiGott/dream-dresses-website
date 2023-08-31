@@ -11,17 +11,18 @@
     color: rgb(45,56,95);
     text-align: center;
     margin: 0;
+    margin-bottom: 80px;
 }
 
 
-.partners-row-1{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: space-between;
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-top: 70px;
-    margin-bottom: 40px;
+.partners-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 70px;
+    column-gap: 17%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .csa, .twc, .aarna, .goonj, .ahaana{
@@ -114,63 +115,3 @@
     text-align: center;
     width: 200px;
 }
-
-.partners-row-2{
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 22%;
-    margin-right: 22%;
-}
-
-@media (max-width: 1080px){
-    .partners-row-1{
-        margin-left: 6%;
-        margin-right: 6%;
-    }
-
-    .partners-row-2{
-        margin-left: 18%;
-        margin-right: 18%;
-    }
-}
-
-@media (max-width: 820px){
-    .partners-row-1{
-        grid-template-columns: auto;
-        margin: auto;
-        margin-top: 70px;
-        justify-content: center;
-    }
-
-    .csa-title, .twc-title, .aarna-title, .goonj-title{
-        margin-bottom: 75px;
-    }
-
-    .partners-row-2{
-        grid-template-columns: auto;
-        margin: auto;
-        margin-top: 0px;
-        justify-content: center;
-    }
-}
-
-/*
-@media (max-width: 1180px){
-    .our-partners-grid{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    .csa, .twc{
-        margin-bottom: 75px;
-    }
-}
-
-@media (max-width: 620px){
-    .our-partners-grid{
-        grid-template-columns: 1fr;
-    }
-
-    .csa, .twc, .aarna{
-        margin-bottom: 75px;
-    }
-}*/
