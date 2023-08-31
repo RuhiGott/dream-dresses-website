@@ -1,0 +1,91 @@
+.home2{
+    background-color: rgb(255, 249, 228);
+    padding-top: 65px; 
+}
+
+.about-us{
+    margin-top: 0px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.about-us-grid{
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 1045px){
+    .about-us-grid{
+        grid-template-columns: 330px 330px;
+    }
+
+
+    .our-vision{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 690px){
+    .about-us-grid{
+        grid-template-columns: 330px;
+    }
+}
+
+.what-we-do, .our-mission, .our-vision{
+    background-color: white;
+    height: 410px;
+    border-radius: 10px 10px 0px 0px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    font-family: lato;
+    color: rgb(45,56,95);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 55px;
+}
+
+.what-we-do{
+    border-bottom: 10px solid rgb(219, 89, 89);
+}
+
+.our-mission{
+    border-bottom: 10px solid rgb(84, 124, 161);
+}
+
+.our-vision{
+    border-bottom: 10px solid rgb(249, 185, 61);
+}
+
+.what-we-do-img, .our-mission-img, .our-vision-img{
+    margin-top: 23px;
+    height: 207px;
+}
+
+.what-we-do-text, .our-mission-text, .our-vision-text{
+    color: rgb(103,103,103);
+    font-size: 21px;
+    font-weight: 300;
+    font-family: zilla slab;
+    width: 250px;
+    margin: 30px 40px;
+}
+
+.our-mission-text{
+    width: 200px;
+    margin: 38px 65px;
+}
+
+.our-vision-text{
+    width: 250px;
+    margin: 38px 40px;
+}
+

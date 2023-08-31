@@ -1,0 +1,155 @@
+.home4{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(45,56,95);
+    background-image: url('../images/shapes.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center center; /* You can adjust this to fit your needs */
+    width: 100%;
+    height: 0;
+    padding-bottom: 22%;
+    padding-top: 22%;
+}
+
+.number-flex {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.dresses-number{
+    font-family: Lato;
+    font-weight: 700;
+    color: rgb(245, 244, 255);
+    font-size: 250px;
+    text-shadow: -18px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+.dresses-number-flex{
+    display: flex;
+    align-items: center;
+}
+
+.plus{
+    font-family: Nunito;
+    font-weight: 700;
+    color: rgb(245, 244, 255);
+    font-size: 250px;
+    text-shadow: -18px 5px 7px rgba(0, 0, 0, 0.2);
+    margin-left: 10px;
+}
+
+.dresses-donated{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(218, 217, 255);
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+@media (max-width: 1220px){
+    .dresses-number-flex{
+        margin-bottom: -20px;
+    }
+    .dresses-number{
+        font-size: 200px;
+    }
+
+    .plus{
+        font-size: 200px;
+    }
+
+    .dresses-donated{
+        font-size: 35px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+
+    }
+}
+
+@media (max-width: 1030px){
+    .home4{
+        padding-top: 20%;
+        padding-bottom: 24%;
+    }
+}
+
+@media (max-width: 900px){
+    .home4{
+
+        background-image: url('../images/shapes-small.png');
+
+        width: 100%;
+    height: 0;
+    padding-bottom: 40%;
+    padding-top: 40%;
+    padding-left: 0;
+    padding-right: 0;
+    }
+
+    .dresses-number-flex{
+        margin-bottom: -10px;
+    }
+    .dresses-number{
+        font-size: 160px;
+    }
+
+    .plus{
+        font-size: 160px;
+    }
+
+    .dresses-donated{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 650px){
+    .dresses-number-flex{
+        margin-bottom: -10px;
+    }
+    .dresses-number{
+        font-size: 120px;
+    }
+
+    .plus{
+        font-size: 120px;
+        margin-left: 5px;
+    }
+
+    .dresses-donated{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 480px){
+    .home4{
+        padding-bottom: 42%;
+        padding-top: 38%;
+    }
+
+    .dresses-number-flex{
+        margin-bottom: -10px;
+    }
+    .dresses-number{
+        font-size: 90px;
+    }
+
+    .plus{
+        font-size: 90px;
+        margin-left: 7px;
+    }
+
+    .dresses-donated{
+        font-size: 23px;
+    }
+}

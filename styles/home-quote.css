@@ -1,0 +1,58 @@
+.home5{
+    display: grid;
+    grid-template-columns: 1fr auto;                                   
+}
+
+.home5-left{
+    height: 638px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 720px){
+    .home5-left{
+        height: 464px;
+    }
+}
+
+.quote-design{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotation{
+    height: 52px;
+    margin-bottom: 15px;
+}
+
+.quote{
+    font-family: zilla slab;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(103,103,103);
+    font-size: 35px;
+    width: 329px;
+    text-align: center;
+}
+
+.quote-line{
+    width: 220px;
+    margin-top: 30px;
+}
+
+.square-logo{
+    height: 638px;
+}
+
+@media (max-width: 1090px){
+    .home5{
+        grid-template-columns: 100%;
+    }
+
+    .square-logo{
+        width: 100%;
+        height: auto;
+    }
+}

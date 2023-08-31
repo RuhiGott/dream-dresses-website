@@ -1,0 +1,177 @@
+.about-us-4{
+    background-color: rgb(255, 249, 228);
+    padding-top: 65px;
+    padding-bottom: 120px;
+}
+
+
+.our-partners{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin: 0;
+}
+
+
+.partners-row-1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.csa, .twc, .aarna, .goonj, .ahaana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.csa-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(219, 89, 89);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    
+}
+
+.twc-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(84, 124, 161);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.aarna-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(249, 185, 61);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.goonj-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(160, 198, 234);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.ahaana-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(219, 89, 89);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.csa-icon{
+    width: 129px;
+    margin: 41px 42px 41px 33px;
+}
+
+.twc-icon{
+    width: 136px;
+    margin: 54px 34px 54px 34px;
+}
+
+.aarna-icon{
+    width: 116px;
+    margin: 29px 41px 32px 48px;
+}
+
+.goonj-icon{
+    width: 153px;
+    margin: 39px 21px 43px 31px;
+}
+
+.ahaana-icon{
+    width: 153px;
+    margin: 20px 21px 43px 24px;
+}
+
+.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title{
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    width: 200px;
+}
+
+.partners-row-2{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 22%;
+    margin-right: 22%;
+}
+
+@media (max-width: 1080px){
+    .partners-row-1{
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    .partners-row-2{
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}
+
+@media (max-width: 820px){
+    .partners-row-1{
+        grid-template-columns: auto;
+        margin: auto;
+        margin-top: 70px;
+        justify-content: center;
+    }
+
+    .csa-title, .twc-title, .aarna-title, .goonj-title{
+        margin-bottom: 75px;
+    }
+
+    .partners-row-2{
+        grid-template-columns: auto;
+        margin: auto;
+        margin-top: 0px;
+        justify-content: center;
+    }
+}
+
+/*
+@media (max-width: 1180px){
+    .our-partners-grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .csa, .twc{
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 620px){
+    .our-partners-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .csa, .twc, .aarna{
+        margin-bottom: 75px;
+    }
+}*/

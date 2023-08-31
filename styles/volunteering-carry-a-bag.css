@@ -1,0 +1,176 @@
+.volunteering-2{
+    background-color: rgb(255, 228, 228);
+    padding-bottom: 46px;
+}
+
+.carry-a-bag-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 89, 89);
+    border: none;
+    width: 350px;
+    height: 50px;
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    border-radius: 300px;
+    margin: auto;
+    margin-top: 40px;
+    transition: box-shadow 0.2s;
+}
+
+.carry-a-bag-button:hover{
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.carry-a-bag{
+    margin-top: 0;
+    padding-top: 65px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 28px;   
+}
+
+.carry-a-bag-text{
+    width: 960px;
+    color: rgb(103,103,103);
+    text-align: center;
+    font-family: Zilla Slab;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.carry-step{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+
+.circle{
+    background-color: rgb(219, 89, 89);
+    height: 60px;
+    width: 60px;
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-number{
+     color: white;
+     font-family: lato;
+     font-size: 28px;
+     font-weight: 700;
+     text-align: center;
+}
+
+.step-text{
+    color: rgb(103,103,103);
+    font-size: 24px;
+    font-family: zilla slab;
+    font-weight: 300;
+    width: 846px;
+    margin-left: 30px;
+}
+
+
+@media (max-width: 990px){
+
+    .carry-a-bag-text{
+        width: 800px;
+    }
+
+    .step-text{
+        width: 700px;
+    }
+}
+
+@media (max-width: 850px){
+    .carry-a-bag-text{
+        width: 700px;
+    }
+
+    .step-text{
+        width: 600px;
+    }
+}
+
+@media (max-width: 730px){
+    .carry-a-bag-text{
+        font-size: 20px;
+        width: 600px;
+    }
+
+    .step-text{
+        font-size: 20px;
+        width: 430px;
+    }
+
+    .circle{
+        height: 50px;
+        width: 50px;
+    }
+
+    .step-number{
+        font-size: 20px;
+    }
+
+    .carry-a-bag-button{
+        width: 300px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 630px){
+    .carry-a-bag-text{
+        font-size: 16px;
+        width: 380px;
+    }
+
+    .step-text{
+        font-size: 16px;
+        width: 320px;
+        margin-left: 20px;
+    }
+
+    .carry-a-bag-button{
+        width: 260px;
+        height: 40px;
+        font-size: 16px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .carry-a-bag-text{
+        font-size: 16px;
+        width: 350px;
+    }
+
+    .step-text{
+        font-size: 16px;
+        width: 290px;
+        margin-left: 25px;
+    }
+
+    .circle{
+        height: 40px;
+        width: 40px;
+    }
+
+    .carry-step{
+        margin-bottom: 30px;
+    }
+}

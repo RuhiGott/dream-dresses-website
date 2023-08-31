@@ -1,0 +1,91 @@
+.donate-2{
+    background-color: rgb(255, 249, 228);
+    padding-bottom: 46px;
+    margin-top: 0;
+}
+
+.fundraising{
+    padding-top: 65px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 0px; 
+    margin-top: 0;
+}
+
+.fundraising-text{
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    color: rgb(103,103,103);
+    text-align: center;
+    margin: auto;
+    margin-top: 32px;
+}
+
+.fundraising-button{
+    background-color: rgb(249, 185, 61);
+    height: 46px;
+    width: 180px;
+    border: none;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: auto;
+    margin-top: 35px;
+
+    transition: box-shadow 0.2s;
+}
+
+.fundraising-button:hover{
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.fundraising-button-text{
+    font-family: zilla slab;
+    font-weight: 300px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.fundraising-heart{
+    width: 14px;
+    margin-right: 6px;
+
+}
+
+@media (max-width: 1000px){
+    .fundraising-text{
+        width: 800px
+    }
+}
+
+@media (max-width: 805px){
+    .fundraising-text{
+        width: 500px
+    }
+}
+
+@media (max-width: 580px){
+    .fundraising-text{
+        width: 450px;
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .fundraising-text{
+        width: 320px;
+        font-size: 18px;
+    }
+
+    .fundraising-button{
+        margin-top: 35px;
+    }
+}

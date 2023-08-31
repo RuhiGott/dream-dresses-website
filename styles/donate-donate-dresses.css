@@ -1,0 +1,212 @@
+.donate-1{
+    background-color: rgb(227, 245, 255);
+    padding-bottom: 46px;
+}
+
+.contact-donate-button{
+    background-color: rgb(84, 124, 161);
+    border: none;
+    width: 300px;
+    height: 50px;
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    color: white;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: box-shadow 0.2s;
+}
+
+.contact-donate-button:hover{
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+.donate-dresses{
+    padding-top: 65px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 28px; 
+    margin-top: 0px;
+}
+
+.donate-text{
+    width: 1220px;
+    color: rgb(103,103,103);
+    text-align: center;
+    font-family: Zilla Slab;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.centered-req-flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+.req-flex{
+    display: inline-flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.dresses-are-title{
+    font-family: zilla slab;
+    font-weight: 300;
+    color: rgb(103,103,103);
+    font-size: 24px;
+    width: 400px;
+    margin-bottom: 18px;
+}
+
+.bullet-point{
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(84, 124, 161);
+    margin-right: 20px;
+}
+
+.requirement{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.requirement-text{
+    font-family: zilla slab;
+    font-weight: 300;
+    color: rgb(103,103,103);
+    font-size: 24px;
+}
+
+.dresses-are{
+    margin-right: 160px;
+}
+
+
+@media (max-width: 1240px){
+    .donate-text{
+        width: 900px;
+    }
+}
+
+@media (max-width: 1000px){
+    .donate-text{
+        width: 800px;
+    }
+
+    .dresses-are{
+        margin-right: 50px;
+    }
+
+    .dresses-are-title{
+        width: 350px;
+    }
+}
+
+@media (max-width: 830px){
+    .donate-text{
+        font-size: 20px;
+        width: 600px;
+    }
+
+    .dresses-are{
+        margin-right: 50px;
+    }
+
+    .dresses-are-title{
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .requirement-text{
+        font-size: 20px;
+    }
+
+    .contact-donate-button{
+        width: 260px;
+        height: 45px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 630px){
+    .donate-text{
+        font-size: 16px;
+        width: 430px;
+    }
+
+    .dresses-are{
+        margin-right: 30px;
+    }
+
+    .dresses-are-title{
+        width: 200px;
+        font-size: 16px;
+    }
+
+    .requirement-text{
+        font-size: 16px;
+    }
+
+    .contact-donate-button{
+        width: 220px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .bullet-point{
+        width: 8px;
+        height: 8px;
+        margin-right: 10px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .donate-text{
+        font-size: 14px;
+        width: 370px;
+    }
+
+    .dresses-are{
+        margin-right: 30px;
+    }
+
+    .dresses-are-title{
+        width: 160px;
+        font-size: 14px;
+    }
+
+    .requirement-text{
+        font-size: 14px;
+        width: 120px;
+    }
+
+    .contact-donate-button{
+        width: 220px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .bullet-point{
+        width: 7px;
+        height: 7px;
+        margin-right: 7px;
+    }
+
+    .dresses-are{
+        margin-right: 13px;
+        margin-left: 13px;
+    }
+}

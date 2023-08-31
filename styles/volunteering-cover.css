@@ -1,0 +1,103 @@
+.volunteering-1{  
+    position: relative;
+    background-color: rgb(227, 245, 255);
+    height: 668px;
+}
+
+.get-involved{
+    color: rgb(45,56,95);
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 105px;
+    margin-left: 150px;
+}
+
+
+.get-involved-text{
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 28px;
+    width: 324px;
+    margin-left: 150px;
+    margin-top: 35px;
+}
+
+.volunteering-kids{
+    width: 815px;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+@media (max-width: 1180px){
+
+    .get-involved{
+        margin-left: 80px;
+    }
+
+    .get-involved-text{
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 1100px){
+    .volunteering-1{
+        height: 960px;
+    }
+
+    .get-involved{
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+    .get-involved-text{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px){
+    .volunteering-1{
+        height: 720px;
+    }
+
+    .get-involved{
+        font-size: 40px;
+    }
+
+    .get-involved-text{
+        font-size: 24px;
+        width: 400px;
+    }
+
+    .volunteering-kids{
+        width: 500px;
+    }
+}
+
+
+@media (max-width: 480px){
+    .volunteering-1{
+        height: 720px;
+    }
+
+    .get-involved{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .get-involved-text{
+        font-size: 20px;
+        width: 330px;
+    }
+
+    .volunteering-kids{
+        width: 100%;
+    }
+}

@@ -1,0 +1,92 @@
+.about-us-1{  
+    position: relative;
+    background-color: rgb(255, 228, 228);
+    height: 668px;
+}
+
+.who-we-are{
+    color: rgb(45,56,95);
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 105px;
+    margin-left: 10%;
+}
+
+
+.who-we-are-text{
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 28px;
+    width: 330px;
+    margin-left:  10%;
+    margin-top: 35px;
+}
+
+.about-us-kids{
+    width: 815px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+@media (max-width: 1150px){
+    .about-us-1{
+        height: 960px;
+    }
+
+    .who-we-are{
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+    }
+
+
+    .who-we-are-text{
+        text-align: center;
+        margin: auto;
+        margin-top: 20px;
+        width: 600px;
+    }
+}
+
+@media (max-width: 720px){
+    .about-us-1{
+        height: 720px;
+    }
+
+    .who-we-are{
+        font-size: 40px;
+    }
+
+    .who-we-are-text{
+        font-size: 24px;
+        width: 400px;
+    }
+
+    .about-us-kids{
+        width: 500px;
+    }
+}
+
+@media (max-width: 480px){
+    .about-us-1{
+        height: 720px;
+    }
+
+    .who-we-are{
+        margin-top: 80px;
+        font-size: 40px;
+    }
+
+    .who-we-are-text{
+        font-size: 20px;
+        width: 330px;
+    }
+
+    .about-us-kids{
+        width: 108%;
+    }
+}

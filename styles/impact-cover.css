@@ -1,0 +1,152 @@
+.impact-1{
+    height: 668px;
+    background-color: rgb(255, 243, 214);
+    position: relative;
+}
+
+.impact{
+    margin: auto;
+    color: rgb(45,56,95);
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.impact-text{
+    margin: auto;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 26px;
+    margin-top: 20px;
+    text-align: center;
+    width: 700px;
+    margin-bottom: 25px;
+}
+
+.yellow-blob{
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+}
+
+.impact-image{
+    width: 138px;
+    border-radius: 25px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    margin: 0;
+}
+  .marquee {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  
+  .marquee-content {
+    width: 900%;
+    display: flex;
+    animation: marquee 300s linear infinite forwards;
+  }
+
+  .list-inline {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    /* reset list */
+    list-style: none;
+    align-items: center;
+    margin-left: -30px;
+  }
+
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-66.6%);
+    }
+  }
+
+@media (max-width: 1060px){
+    
+  .impact-image{
+    width: 100px;
+  }
+
+  .impact-text{
+    margin-bottom: 45px;
+}
+}
+
+@media (max-width: 850px){
+    .impact-text{
+        width: 550px;
+    }
+}
+
+@media (max-width: 680px){
+  .impact-image{
+    width: 80px;
+  }
+
+  .impact-text{
+    margin-bottom: 70px;
+  }
+}
+
+@media (max-width: 630px){
+    .impact{
+        font-size: 40px;
+    }
+
+    .impact-text{
+        width: 450px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 550px){
+  .impact-image{
+    width: 120px;
+  }
+
+  .impact-text{
+    margin-bottom: 25px;
+  }
+
+  .list-inline {
+    width: 150%;
+  }
+
+  .marquee-content {
+    width: 1700%;
+  }
+}
+
+
+@media (max-width: 480px){
+    .impact-text{
+        width: 350px;
+        font-size: 20px;
+    }
+
+    .impact-image{
+      width: 140px;
+    }
+  
+    .impact-text{
+      margin-bottom: 30px;
+    }
+  
+
+  
+    .marquee-content {
+      width: 2200%;
+    }
+}

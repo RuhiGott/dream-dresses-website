@@ -1,0 +1,370 @@
+.about-us-2{
+    position: relative;
+    padding-bottom: 90px;
+}
+
+.our-plan-title{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(45,56,95);
+    margin-top: 65px;
+    margin-bottom: 80px; 
+}
+
+.instructions{
+    position: absolute;
+    font-family: zilla slab;
+    color: rgb(103,103,103);
+    font-size: 16px;
+    text-align: center;
+    font-weight: 300;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 55px;
+}
+
+.steps{
+    display: grid;
+    grid-template-rows: 155px 155px 155px 155px 155px;
+    row-gap: 50px;
+}
+
+.left-step{
+    display: flex;
+    align-items: center;
+    width: 670px;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    position: relative;
+    transition: width 0.5s, border-radius 0.5s;
+
+}
+
+.right-step{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 670px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    position: relative;
+    transition: width 0.5s, border-radius 0.5s;
+}
+
+
+#step-1{
+    background-color: rgb(255, 228, 228);
+}
+
+#step-2{
+    background-color: rgb(215, 236, 255);
+}
+
+#step-3{
+    background-color: rgb(255, 234, 192);
+}
+
+#step-4{
+    background-color: rgb(255, 228, 228);
+}
+
+#step-5{
+    background-color: rgb(215, 236, 255);
+}
+
+
+.left-circle{
+    display: flex;
+    height: 110px;
+    width: 110px;
+    border-radius: 80px;
+    margin-left: 113px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 110px;
+    width: 110px;
+    border-radius: 80px;
+    margin-right: 113px;
+}
+
+#one-circle{
+    background-color: rgb(219, 89, 89);
+}
+
+#two-circle{
+    background-color: rgb(84, 124, 161);
+}
+
+#three-circle{
+    background-color: rgb(249, 185, 61);
+}
+
+#four-circle{
+    background-color: rgb(219, 89, 89);
+}
+
+#five-circle{
+    background-color: rgb(84, 124, 161);
+}
+
+
+
+
+.step-number{
+    font-family: lato;
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+}
+
+
+
+.left-title{
+    color: rgb(45,56,95);
+    font-family: Lato;
+    font-size: 33px;
+    margin-left: 28px;
+}
+
+.right-title{
+    color: rgb(45,56,95);
+    font-family: Lato;
+    font-size: 33px;
+    margin-right: 28px;
+}
+
+
+.one-text{
+    visibility: hidden;
+    position: absolute;
+    right: 70px;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    width: 380px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.01s;
+}
+
+.two-text{
+    visibility: hidden;
+    position: absolute;
+    left: 70px;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    width: 380px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.01s;
+}
+
+.three-text{
+    visibility: hidden;
+    position: absolute;
+    right: 70px;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 20px;
+    width: 435px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.01s;
+}
+
+.four-text{
+    visibility: hidden;
+    position: absolute;
+    left: 70px;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    width: 470px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.01s;
+}
+
+.five-text{
+    visibility: hidden;
+    position: absolute;
+    right: 70px;
+    color: rgb(103,103,103);
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 24px;
+    width: 380px;
+    opacity: 0;
+    transition: opacity 0.1s;
+    transition-delay: 0.01s;
+
+}
+
+
+@media (hover: hover){
+    .step:hover{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .step:hover .one-text, .step:hover .two-text, .step:hover .three-text, .step:hover .four-text, .step:hover .five-text{
+        visibility: visible;
+        opacity: 100%;
+        transition: opacity 1s;
+        transition-delay: 0.15s;
+    }
+
+}
+
+.step.active{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.step.active .one-text, .step.active .two-text, .step.active .three-text, .step.active .four-text, .step.active .five-text{
+    visibility: visible;
+    opacity: 100%;
+    transition: opacity 1s;
+    transition-delay: 0.15s;
+}
+
+
+@media (max-width: 1020px){
+
+    .left-step{
+        border-radius: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        transition: width 0.5s, border-radius 0.2s;
+    } 
+
+    .right-step{
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row-reverse;
+        border-radius: 200px;
+        transition: width 0.5s, border-radius 0.5s, border-radius 0.2s;
+    }
+
+    .left-circle{
+        transition: opacity 0.8s;
+    }
+
+    .left-title{
+        transition: opacity 0.8s;
+    }
+
+    .right-circle{
+        margin-left: 113px;
+        margin-right: 0;
+        transition: opacity 0.8s;
+        
+    }
+
+    .right-title{
+        transition: opacity 0.8s;
+        margin-left: 28px;
+       
+    }
+
+    @media (hover: hover){
+        .left-step:hover .left-circle, .left-step:hover .left-title, .right-step:hover .right-circle, .right-step:hover .right-title{
+            opacity: 0;
+            transition: opacity 0.15s;
+      
+        }
+    }
+
+    .step.active .left-circle, .step.active .left-title, .step.active .right-circle, .step.active .right-title{
+        opacity: 0;
+        transition: opacity 0.15s;
+    }
+
+    .one-text, .two-text, .three-text, .four-text, .five-text{
+        text-align: center;
+        right: 0;
+        left: 0;
+        top: auto;
+        bottom: auto;
+        margin: auto;
+    }
+
+    .two-text{
+        width: 460px;
+    }
+    
+}
+
+
+@media (max-width: 700px){
+    .left-step{
+        border-radius: 0px;
+        width: 100%
+    }
+
+    .right-step{
+        border-radius: 0px;
+        width: 100%;
+    }
+    
+    .left-circle{
+        margin-left: 48px;
+    }
+
+    .right-circle{
+        margin-left: 48px;       
+    }
+}
+
+
+@media (max-width: 600px){
+    .left-title, .right-title{
+        font-size: 28px;
+    }
+
+    .left-circle{
+        margin-left: 35px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .right-circle{
+        margin-left: 35px;  
+        height: 80px;
+        width: 80px;     
+    }
+
+    .step-number{
+        font-size: 40px;
+    }
+
+    .one-text, .two-text, .three-text, .four-text, .five-text{
+        font-size: 20px;
+        width: 360px;
+    }
+
+    .three-text{
+        font-size: 18px;
+    }
+}
+
+
+
+

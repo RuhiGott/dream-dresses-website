@@ -1,0 +1,405 @@
+.impact-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 1160px;
+    height: 484px;
+
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.collection-centers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 74px;
+    margin-top: 20px;
+}
+
+.map-icon{
+    width: 40px;
+    margin-bottom: 8px;
+}
+
+.collection-centers-number{
+    color: rgb(45, 56, 96);
+    font-family: Lato;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.collection-centers-text{
+    color: rgb(45, 56, 96);
+    font-family: lato;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 240px;
+    margin-bottom: 25px;
+}
+
+.collection-centers-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: zilla slab;
+    font-weight: 300px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(84, 124, 161);
+    height: 46px;
+    width: 232px;
+    text-align: center;
+    border: none;
+    border-radius: 300px;
+    transition: box-shadow 0.2s;
+}
+
+
+
+
+.dresses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 74px;
+}
+
+.dress-icon{
+    width: 70px;
+}
+
+.dresses-number-flex{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.dresses-number{
+    color: rgb(45, 56, 96);
+    font-family: lato;
+    font-size: 150px;
+    font-weight: 700;
+}
+
+.dresses-plus{
+    color: rgb(45, 56, 96);
+    font-family: nunito;
+    font-size: 130px;
+    margin-left: 5px;
+}
+
+.dresses-text{
+    color: rgb(45, 56, 96);
+    font-family: lato;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 25px;
+}
+
+.dresses-button{
+    background-color: rgb(219, 89, 89);
+    height: 46px;
+    width: 180px;
+    border: none;
+    border-radius: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.2s;
+}
+
+.dresses-button-text{
+    font-family: zilla slab;
+    font-weight: 300px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.dresses-heart{
+    width: 14px;
+    margin-right: 6px;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+.states{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box-icon{
+    width: 40px;
+    margin-bottom: 8px;
+}
+
+.states-number{
+    color: rgb(45, 56, 96);
+    font-family: Lato;
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.states-text{
+    color: rgb(45, 56, 96);
+    font-family: lato;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.states-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: zilla slab;
+    font-weight: 300px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(249, 185, 61);
+    height: 46px;
+    width: 210px;
+    text-align: center;
+    border: none;
+    border-radius: 300px;
+    transition: box-shadow 0.2s;
+}
+
+.collection-centers-button:hover, .dresses-button:hover, .states-button:hover{
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 1180px){
+    .impact-2{
+        width: 1000px;
+        height: 464px;
+    }
+    
+    .collection-centers{
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    
+    .map-icon{
+        width: 30px;
+        margin-bottom: 8px;
+    }
+    
+    .collection-centers-number{
+        font-size: 60px;
+    }
+    
+    .collection-centers-text{
+        color: rgb(45, 56, 96);
+        font-size: 20px;
+        width: 200px;
+        margin-bottom: 15px;
+    }
+    
+    .collection-centers-button{
+        font-size: 16px;
+        height: 40px;
+        width: 210px;
+    }
+    
+    
+    
+    
+    .dresses{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+    }
+    
+    .dress-icon{
+        width: 60px;
+    }
+    
+    .dresses-number-flex{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+    
+    .dresses-number{
+        font-size: 130px;
+    }
+    
+    .dresses-plus{
+        color: rgb(45, 56, 96);
+        font-family: nunito;
+        font-size: 110px;
+        margin-left: 3px;
+    }
+    
+    .dresses-text{
+        color: rgb(45, 56, 96);
+        font-family: lato;
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-top: -10px;
+        margin-bottom: 25px;
+    }
+    
+    .dresses-button{
+        background-color: rgb(219, 89, 89);
+        height: 40px;
+        width: 175px;
+        border: none;
+        border-radius: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: box-shadow 0.2s;
+    }
+    
+    .dresses-button-text{
+        font-family: zilla slab;
+        font-weight: 300px;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+    }
+    
+    .dresses-heart{
+        width: 14px;
+        margin-right: 6px;
+        margin-top: 1px;
+    }
+    
+    
+    
+    .box-icon{
+        width: 30px;
+        margin-bottom: 8px;
+    }
+    
+    .states-number{
+        font-size: 60px;
+    }
+    
+    .states-text{
+        color: rgb(45, 56, 96);
+        font-family: lato;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .states-button{
+        height: 40px;
+        width: 190px;
+        font-size: 16px;
+        color: white;
+    }
+    
+    .collection-centers-button:hover, .dresses-button:hover, .states-button:hover{
+        box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+    }
+}
+
+@media (max-width: 1020px){
+    .impact-2{
+        width: 923px;
+        height: 404px;
+        margin-top: 80px;
+    margin-bottom: 80px;
+    }
+}
+
+
+
+@media (max-width: 950px){
+    .impact-2{
+        flex-direction: column;
+        width: 500px;
+        height: 1150px;
+    }
+
+    .collection-centers{
+        margin: 0;
+        margin-bottom: 100px;
+    }
+    
+    .dresses{
+        margin: 0;
+        margin-bottom: 100px;
+    }
+
+    .states{
+        margin: 0;
+    }
+}
+
+@media (max-width: 560px){
+    .impact-2{
+        width: 460px;
+    }
+
+    .dresses-number{
+        font-size: 130px;
+    }
+    
+    .dresses-plus{
+        font-size: 110px;
+    }
+}
+
+@media (max-width: 480px){
+    .impact-2{
+        width: 350px;
+        height: 1100px;
+    }
+
+    .collection-centers-number{
+        font-size: 60px;
+    }
+    
+    .collection-centers-text{
+        font-size: 22px;
+    }
+
+    .dresses-number{
+        font-size: 90px;
+    }
+    
+    .dresses-plus{
+        font-size: 70px;
+    }
+
+    .dresses-text{
+        font-size: 30px;
+    }
+
+    .dresses-number-flex{
+        margin-bottom: 5px;
+    }
+
+    .states-number{
+        font-size: 60px;
+    }
+    
+    .states-text{
+        font-size: 22px;
+    }
+}

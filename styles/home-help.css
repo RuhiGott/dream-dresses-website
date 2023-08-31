@@ -1,0 +1,226 @@
+.home6{
+    background-color: rgb(255, 249, 228);
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 615px;
+}
+
+.help-title{
+    padding-top: 65px; 
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.help-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.donate-clothes, .volunteer, .carry-a-bag, .fundraise{
+    position: relative;
+    background-color: white;
+    width: 233px;
+    height: 286px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+    font-family: lato;
+    color: rgb(45,56,95);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    transition: height 0.3s;
+
+}
+
+@media (hover: hover){
+    .donate-clothes:hover, .volunteer:hover, .carry-a-bag:hover, .fundraise:hover{
+        height: 350px;
+    }
+
+    .donate-clothes:hover .donate-clothes-button, .volunteer:hover .volunteer-button, .carry-a-bag:hover .carry-a-bag-button, .fundraise:hover .fundraise-button{
+        visibility: visible;
+        display: flex;
+        opacity: 100%;
+        transition: opacity 0.24s ease-in;
+        transition-delay: 0.1s;
+    }
+}
+
+.donate-clothes.active, .volunteer.active, .carry-a-bag.active, .fundraise.active{
+    height: 350px;
+}
+
+.donate-clothes.active .donate-clothes-button, .volunteer.active .volunteer-button, .carry-a-bag.active .carry-a-bag-button, .fundraise.active .fundraise-button{
+    visibility: visible;
+    display: flex;
+    opacity: 100%;
+    transition: opacity 0.24s ease-in;
+    transition-delay: 0.1s;
+}
+
+
+.donate-clothes{
+    border-bottom: 10px solid rgb(219, 89, 89);
+}
+
+.volunteer{
+    border-bottom: 10px solid rgb(84, 124, 161);
+}
+
+.carry-a-bag{
+    border-bottom: 10px solid rgb(249, 185, 61);
+}
+
+.fundraise{
+    border-bottom: 10px solid rgb(160, 198, 234);
+}
+
+
+.donate-clothes-img{
+    margin-top: 22px;
+    width: 82px;
+
+}
+
+.volunteer-img{
+    margin-top: 20px;
+    width: 85px;
+}
+
+.carry-a-bag-img{
+    margin-top: 23px;
+    width: 85px;
+}
+
+.fundraise-img{
+    margin-top: 24px;
+    width: 79px;
+}
+
+
+
+.donate-clothes-circle{
+    width: 137px;
+    height: 137px;
+    background-color: white;
+    border-radius: 300px;
+    border: 5px solid rgb(219, 89, 89);
+    margin-left: 43px;
+    margin-top: 43px;
+
+}
+
+.volunteer-circle{
+    width: 137px;
+    height: 137px;
+    background-color: white;
+    border-radius: 300px;
+    border: 5px solid rgb(84, 124, 161);
+    margin-left: 43px;
+    margin-top: 43px;
+
+}
+
+.carry-a-bag-circle{
+    width: 137px;
+    height: 137px;
+    background-color: white;
+    border-radius: 300px;
+    border: 5px solid rgb(249, 185, 61);
+    margin-left: 43px;
+    margin-top: 43px;
+}
+
+.fundraise-circle{
+    width: 137px;
+    height: 137px;
+    background-color: white;
+    border-radius: 300px;
+    border: 5px solid rgb(160, 198, 234);
+    margin-left: 43px;
+    margin-top: 43px;
+}
+
+.donate-clothes-button, .volunteer-button, .carry-a-bag-button, .fundraise-button{
+    visibility: hidden;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 174px;
+    height: 42px;
+    border: none;
+    border-radius: 50px; 
+    color: white;
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 20px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    opacity: 0;
+    text-decoration: none;
+    transition: opacity 0.05s;
+}
+
+.donate-clothes-button{
+    background-color: rgb(219, 89, 89);
+}
+
+.volunteer-button{
+    background-color: rgb(84, 124, 161);
+}
+
+.carry-a-bag-button{
+    background-color: rgb(249, 185, 61);
+}
+
+.fundraise-button{
+    background-color: rgb(160, 198, 234);
+}
+
+@media (max-width: 1070px){
+    .home6{
+        height: 1000px;
+    }
+
+    .help-grid{
+        grid-template-columns: 233px 233px;
+    }
+
+    .donate-clothes, .volunteer{
+        margin-bottom: 30px;
+    }
+
+    
+}
+
+@media (max-width: 640px){
+    .home6{
+        height: 1800px;
+    }
+
+    .help-grid{
+        grid-template-columns: 233px;
+    }
+    
+
+    .donate-clothes, .volunteer, .carry-a-bag{
+        margin-bottom: 30px;
+    }
+
+    .fundraise{
+        margin-bottom: 100px;
+    }
+}

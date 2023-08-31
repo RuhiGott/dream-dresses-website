@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+}
+
+div{
+    margin: 0px;
+}
+
+img{
+    margin: 0px;
+}
+
+.link:hover{
+    color: rgb(103,103,103);
+}
+
+
+.pink-bold{
+    font-weight: 700;
+    color: rgb(219, 89, 89);
+}
+
+.blue-bold{
+    font-weight: 700;
+    color: rgb(84, 124, 161);
+}
+
+.yellow-bold{
+    font-weight: 700;
+    color: rgb(249,185,61);
+}
+
+.link{
+    color: rgb(45,56,95);
+    text-decoration: underline;
+}
+
+link:hover{
+    color: rgb(103,103,103);
+}
+
+.pink-text{
+    color: rgb(219, 89, 89);
+}
+
+
+.blue-text{
+    color: rgb(84, 124, 161);
+}
+
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,233 @@
+.impact-3{
+    background-color: rgb(227, 245, 255);
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.sammamish-logo-circle{
+    position: absolute;
+    background-color: white;
+    background-color: white;
+    border-radius: 300px;
+    border: 4px solid rgb(84, 124, 161);
+    height: 65px;
+    width: 65px;
+    top: 25px;
+    left: 36px;
+    transition: box-shadow 0.2s;
+}
+
+.sammamish-logo{
+    width: 30px;
+    margin-top: 8px;
+    margin-left: 18px;
+}
+
+.recognition-title{
+    padding-top: 65px;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 28px;
+    margin-top: 0;
+}
+
+.recognition-text{
+    font-family: zilla slab;
+    color: rgb(103, 103, 103);
+    font-weight: 300;
+    font-size: 28px;
+    text-align: center;
+    width: 730px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.quote-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quotation-mark{
+    width: 42px;
+    margin-bottom: 0px;
+}
+
+.sammamish-quote{
+    color: rgb(103, 103, 103);
+    font-family: zilla slab;
+    font-style: italic;
+    text-align: center;
+    width: 936px;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 32px;
+}
+
+.quotation-line{
+    width: 234px;
+    margin-bottom: 65px;
+}
+
+.recognition-buttons{
+    display: flex;
+    margin: auto;
+    
+}
+
+
+.button-2021{
+    background-color: rgb(84, 124, 161);
+    width: 205px;
+    height: 51px;
+    border-radius: 300px;
+    border: 4px solid rgb(84, 124, 161);
+    margin-right: 74px;
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.button-2022{
+    background-color: rgb(84, 124, 161);
+    color: white;
+    font-family: zilla slab;
+    font-weight: 300;
+    width: 205px;
+    height: 51px;
+    border-radius: 300px;
+    border: 4px solid rgb(84, 124, 161);
+    text-align: center;
+    transition: box-shadow 0.2s;
+}
+
+.recognition-button-text{
+    color: white;
+    font-family: zilla slab;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 9px;
+}
+
+.button-2021:hover, .button-2022:hover, .sammamish-logo-circle:hover{
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 940px){
+    .sammamish-quote{
+        width: 700px;
+    }
+}
+
+@media (max-width: 750px){
+    .recognition-text{
+        font-size: 22px;
+        width: 590px;
+    }
+
+    .sammamish-quote{
+        width: 600px;
+        font-size: 20px;
+    }
+
+
+    .button-2021{
+        width: 185px;
+        height: 40px;
+    }
+
+    .button-2022{
+        width: 185px;
+        height: 40px;
+    }
+
+    .recognition-button-text{
+        font-size: 22px;
+        margin-top: 6px;
+    }
+}
+
+@media (max-width: 670px){
+    .recognition-text{
+        font-size: 18px;
+        width: 400px;
+    }
+
+    .sammamish-quote{
+        width: 420px;
+        font-size: 16px;
+    }
+
+    .button-2021{
+        width: 150px;
+        height: 30px;
+        margin-right: 50px;
+    }
+
+    .button-2022{
+        width: 150px;
+        height: 30px;
+    }
+
+    .recognition-button-text{
+        font-size: 18px;
+        margin-top: 3px;
+    }
+
+    .quotation-mark{
+        width: 35px;
+    }
+
+    .sammamish-quote{
+        margin-bottom: 26px;
+    }
+}
+
+
+
+@media (max-width: 670px){
+    .recognition-text{
+        width: 340px;
+        margin-bottom: 30px;
+    }
+
+    .sammamish-quote{
+        width: 340px;
+    }
+
+    .button-2021{
+        margin-right: 30px;
+    }
+
+    .recognition-button-text{
+        font-size: 18px;
+        margin-top: 3px;
+    }
+
+    .quotation-mark{
+        width: 35px;
+    }
+
+    .sammamish-quote{
+        margin-bottom: 20px;
+    }
+
+
+    .sammamish-logo-circle{
+        height: 55px;
+        width: 55px;
+        left: 15px;
+    }
+
+    .sammamish-logo{
+        width: 20px;
+        margin-top: 12px;
+    }
+
+    .quotation-line{
+        margin-bottom: 40px;
+    }
+}
+
