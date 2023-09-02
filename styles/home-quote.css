@@ -1,19 +1,13 @@
 .home5{
-    display: grid;
-    grid-template-columns: 1fr auto;                                   
+    display: flex;
+    height: 638px;                                
 }
 
 .home5-left{
-    height: 638px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-}
-
-@media (max-width: 720px){
-    .home5-left{
-        height: 464px;
-    }
+    flex: 1;
 }
 
 .quote-design{
@@ -42,17 +36,55 @@
     margin-top: 30px;
 }
 
-.square-logo{
-    height: 638px;
-}
-
-@media (max-width: 1090px){
+@media (max-width: 1240px){
     .home5{
-        grid-template-columns: 100%;
+        height: auto;
     }
 
     .square-logo{
-        width: 100%;
-        height: auto;
+        width: 55%
+    }
+}
+
+@media (max-width: 890px){
+    
+    .quotation{
+        height: 40px;
+    }
+    
+    .quote{
+        font-size: 28px;
+        width: 270px;
+    }
+    
+    .quote-line{
+        width: 150px;
+    }
+}
+
+@media (max-width: 710px){
+    .home5{
+        flex-wrap: wrap;
+    }
+
+    .home5-left{
+        height: 600px;
+    }
+
+    .square-logo{
+        width: 100%
+    }
+
+    .quotation{
+        height: 52px;
+    }
+    
+    .quote{
+        font-size: 35px;
+        width: 329px;
+    }
+    
+    .quote-line{
+        width: 220px;
     }
 }

@@ -1,6 +1,6 @@
 .home3{
     display: flex;
-    height: auto;
+    height: 648px;
 
 }
 
@@ -14,7 +14,6 @@
 
 .bridging-the-gap{
     margin: 0;
-
     margin-bottom: 30px;
     margin-left: 15%;
     font-family: Lato;
@@ -26,21 +25,83 @@
 
 .bridging-the-gap-text{
     margin: 0;
-
     margin-left: 15%;
     font-family: zilla slab;
     font-size: 24px;
     font-weight: 300;
     color: rgb(103,103,103);
-    width: 51%;
+    width: 400px;
 }
 
+@media (max-width: 1240px){
+    .home3{
+        height: auto;
+    }
 
-.every-dress{
-    width: 45%;
-    height: auto;
+    .bridging-the-gap{
+        margin-left: 12%;
+        font-size: 35px;
+    }
+    
+    .bridging-the-gap-text{
+        margin-left: 12%;
+        font-size: 22px;
+        width: 370px;
+    }
+
+    .every-dress{
+        width: 55%
+    }
 }
 
+@media (max-width: 1040px){
+    .home3{
+        height: auto;
+    }
 
+    .bridging-the-gap{
+        margin-left: 10%;
+        font-size: 30px;
+    }
+    
+    .bridging-the-gap-text{
+        margin-left: 10%;
+        font-size: 18px;
+        width: 300px;
+    }
 
+    .every-dress{
+        width: 55%
+    }
+}
 
+@media (max-width: 860px){
+    .home3{
+        flex-wrap: wrap;
+    }
+
+    .home3-left{
+        height: 600px;
+    }
+
+    .bridging-the-gap{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        font-size: 37px;
+    }
+    
+    .bridging-the-gap-text{
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        font-size: 23px;
+        width: 70%;
+    }
+
+    .every-dress{
+        width: 100%
+    }
+}
