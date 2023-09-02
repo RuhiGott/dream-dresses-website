@@ -2,7 +2,7 @@ let index = 0;
 displayImages();
 function displayImages() {
   let i;
-  const images = document.getElementsByClassName("every-dress-pic");
+  const images = document.getElementsByClassName("every-dress");
   for (i = 0; i < images.length; i++) {
     images[i].style.display = "none";
   }

@@ -33,6 +33,7 @@
     width: 400px;
 }
 
+
 @media (max-width: 1240px){
     .home3{
         height: auto;
@@ -104,8 +105,4 @@
     .every-dress{
         width: 100%
     }
-}
-
-.every-dress-pic{
-    width: 100%;
 }
