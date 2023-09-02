@@ -19,7 +19,7 @@
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 10%;
-    column-gap: 7%;
+    column-gap: 5%;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -192,7 +192,7 @@
     background-color: rgb(160, 198, 234);
 }
 
-@media (max-width: 1255px){
+@media (max-width: 1167px){
     .home6{
         height: 1000px;
     }

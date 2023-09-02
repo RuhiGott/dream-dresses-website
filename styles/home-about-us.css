@@ -20,9 +20,9 @@
     justify-content: center;
     flex-wrap: wrap;
     row-gap: 10%;
-    column-gap: 7%;
-    margin-left: 3%;
-    margin-right: 3%;
+    column-gap: 5.5%;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .what-we-do, .our-mission, .our-vision{
