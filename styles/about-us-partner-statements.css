@@ -146,7 +146,7 @@
 .csa-statement{
     width: 200px;
     height: fit-content;
-    margin-top: 20px;
+    margin-top: 15px;
     font-family: zilla slab;
     font-size: 14px;
     font-weight: 300;
@@ -156,15 +156,11 @@
 .aarna-statement{
     width: 200px;
     height: fit-content;
-    margin-top: 18px;
+    margin-top: 15px;
     font-family: zilla slab;
     font-size: 13px;
     font-weight: 300;
     color: rgb(103,103,103)
-}
-
-.csa-statement {
-
 }
 
 
