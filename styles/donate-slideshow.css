@@ -18,7 +18,7 @@
   .marquee-content {
     width: 1000%;
     display: flex;
-    animation: marquee 200s linear infinite forwards;
+    animation: marquee 270s linear infinite forwards;
   }
 
   .list-inline {
