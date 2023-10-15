@@ -30,7 +30,7 @@
 
 .csa-flex, .twc-flex, .aarna-flex, .goonj-flex{
     background-color: white;
-    height: 450px;
+    height: 470px;
     width: 233px;
     border-radius: 10px 10px 0px 0px;
     margin-top: 10px;
@@ -146,7 +146,7 @@
 .csa-statement{
     width: 200px;
     height: fit-content;
-    margin-top: 12px;
+    margin-top: 20px;
     font-family: zilla slab;
     font-size: 14px;
     font-weight: 300;
@@ -156,7 +156,7 @@
 .aarna-statement{
     width: 200px;
     height: fit-content;
-    margin-top: 12px;
+    margin-top: 18px;
     font-family: zilla slab;
     font-size: 13px;
     font-weight: 300;
