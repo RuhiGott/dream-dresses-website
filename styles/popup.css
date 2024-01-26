@@ -68,8 +68,8 @@
     border-radius: 300px;
     transition: box-shadow 0.2s;
     text-decoration: none;
-    height: 45px;
-    width: 247px;
+    height: 40px;
+    width: 140px;
 }
 
 .popup-button:hover{
@@ -144,7 +144,7 @@
     .popup-button{
         font-size: 17px;
         height: 40px;
-        width: 230px;
+        width: 140px;
     }
     
     .popup-img{
@@ -181,8 +181,8 @@
 
     .popup-button{
         font-size: 14px;
-        height: 35px;
-        width: 185px;
+        height: 30px;
+        width: 105px;
     }
     
     .popup-img{
