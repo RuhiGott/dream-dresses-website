@@ -7,7 +7,7 @@ window.addEventListener("load", function(){
 
         // Show the popup
         document.querySelector(".popup").style.display = "flex";
-    }, 0);
+    }, 1500);
 });
 
 document.querySelector(".x-circle").addEventListener("click", function(){
