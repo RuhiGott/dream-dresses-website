@@ -1,4 +1,4 @@
-window.addEventListener("load", function(){
+/*window.addEventListener("load", function(){
     setTimeout(function() {
         // Add blur class to elements other than .popup
         document.querySelectorAll("body > :not(.popup)").forEach(function(element) {
@@ -18,4 +18,4 @@ document.querySelector(".x-circle").addEventListener("click", function(){
 
     // Hide the popup
     document.querySelector(".popup").style.display = "none";
-});
+});*/
