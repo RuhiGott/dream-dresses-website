@@ -3,7 +3,6 @@
     pointer-events: none;
 }
 
-
 .popup{
     filter: none;
     border: 6px solid rgb(160, 198, 234);;
@@ -15,7 +14,7 @@
     display: none;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
     position: fixed;
     box-shadow: 0px 5px 15px 3px rgba(0, 0, 0, 0.25);
     z-index: 120;
@@ -36,7 +35,7 @@
 .popup-title{
     margin: 0;
     font-family: Lato;
-    font-size: 33px;
+    font-size: 32px;
     font-weight: 700;
     color: rgb(45,56,95);
     text-align: center;
@@ -45,7 +44,7 @@
 .popup-text{
     margin: 0;
     color: rgb(103,103,103);
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 300;
     font-family: zilla slab;
     text-align: center;
@@ -53,28 +52,17 @@
     padding: 0;
 }
 
-.popup-button{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: zilla slab;
-    font-weight: 300px;
-    font-size: 18px;
-    color: white;
-    background-color: rgb(84, 124, 161);
-    text-align: center;
-    border: none;
-    border-radius: 300px;
-    transition: box-shadow 0.2s;
-    text-decoration: none;
-    height: 40px;
-    width: 140px;
+.popup-date{
+    color: rgb(84, 124, 161);
+    font-weight: 700;
 }
 
-.popup-button:hover{
-    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.15);
+.address {
+    font-size: 19px;
+    color: rgb(84, 124, 161);
+    font-weight: 700;
 }
+
 
 .popup-img{
     height: 350px;
@@ -138,7 +126,13 @@
     }
     
     .popup-text{
-        font-size: 19px;
+        font-size: 17px;
+    }
+
+    .address {
+        font-size: 17px;
+        color: rgb(84, 124, 161);
+        font-weight: 700;
     }
 
     .popup-button{
