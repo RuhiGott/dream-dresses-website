@@ -149,9 +149,9 @@
 
 @media (max-width: 480px){
     .popup{
-        height: 230px;
+        height: 260px;
         width: 320px;
-        gap: 12px;
+        gap: 10px;
         left: 50%;
         margin-left: -167px;
         margin-top: -115px;
@@ -161,16 +161,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 10px;
+        gap: 7px;
     }
 
     .popup-title{
-        font-size: 24px;
+        font-size: 21px;
     }
     
     .popup-text{
-        font-size: 15px;
+        font-size: 14px;
         width: 180px;
+    }
+    .address{
+        font-size: 14px;
     }
 
     .popup-button{
@@ -180,7 +183,7 @@
     }
     
     .popup-img{
-        height: 200px;
+        height: 230px;
         margin-top: 30px;
         margin-left: -8px;
     }
