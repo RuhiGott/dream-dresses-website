@@ -12,6 +12,7 @@
     width: 73%;
     margin: auto;
     width: 1070px;
+    margin-bottom: 50px;
 }
 
 .parent-row {
@@ -42,10 +43,6 @@
 @media (max-width: 670px){
     .gallery-title{
         margin-bottom: 40px;
-    }
-
-    .gallery {
-        margin-bottom: 50px;
     }
 }
 
