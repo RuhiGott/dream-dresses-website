@@ -51,3 +51,17 @@
         width: 73%;
     }
 }
+
+@media (min-width: 2100px) {
+    .row {
+        gap: 20px;
+    }
+
+    .column {
+        gap: 20px;
+    }
+
+    .parent-row {
+        margin-bottom: 20px;
+    }
+}
