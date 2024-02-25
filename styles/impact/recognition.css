@@ -44,6 +44,12 @@
     margin-bottom: 22px;
 }
 
+.bolly-title {
+    width: 150px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
 .media-date {
     font-family: zilla slab;
     font-size: 17px;
