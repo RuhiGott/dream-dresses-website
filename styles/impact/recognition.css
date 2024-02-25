@@ -5,7 +5,7 @@
     color: rgb(45,56,95);
     text-align: center;
     margin-top: 90px;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 
 .media-flex {
@@ -13,8 +13,8 @@
     gap: 24px;
     justify-content: center;
     flex-wrap: wrap;
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
     margin-bottom: 100px;
 }
 
@@ -38,7 +38,7 @@
     margin-bottom: 22px;
 }
 
-.bolly-title {
+.bolly-name {
     width: 150px;
     margin-bottom: 25px;
     margin-top: 25px;
@@ -57,7 +57,7 @@
     font-size: 18px;
     color: rgb(103, 103, 103);
     text-align: center;
-    width: 225px;
+    width: 240px;
 }
 
 .read-more {
@@ -117,5 +117,10 @@
 @media (max-width: 700px) {
     .media-box {
         width: 93%;
+    }
+
+    .media-flex {
+        margin-left: 3%;
+    margin-right: 3%;
     }
 }
