@@ -83,18 +83,18 @@
 
 .reporters {
     display: none;
-    grid-template-columns: 70px 70px 70px;
+    grid-template-columns: 50px 50px 50px;
     grid-template-rows: auto auto;
 
     column-gap: 7px;
     row-gap: 3px;
 
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
 }
 
 .reporter {
-    width: 70px;
+    width: 100%;
     border-radius: 7px;
 }
 
@@ -103,7 +103,7 @@
     font-family: zilla slab;
     font-weight: 700;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 50px;
     color: #547CA1;
     text-align: center;
     width: 225px;
