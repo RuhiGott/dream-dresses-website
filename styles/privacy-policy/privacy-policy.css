@@ -1,0 +1,20 @@
+.privacy-policy-header {
+    margin-top: 40px;
+    font-family: Lato;
+    font-size: 38px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.privacy-policy-text {
+    text-align: center;
+    margin: 0;
+    font-family: zilla slab;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(103,103,103);
+    margin-left: 10%;
+    margin-right: 10%;
+}
