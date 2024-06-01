@@ -28,7 +28,7 @@
 
 }
 
-.csa, .twc, .aarna, .goonj, .ahaana{
+.csa, .twc, .aarna, .goonj, .ahaana, .smile{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,6 +85,16 @@
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
 
+.smile-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(84, 124, 161);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
 .csa-icon{
     width: 129px;
     margin: 41px 42px 41px 33px;
@@ -110,7 +120,12 @@
     margin: 20px 21px 43px 24px;
 }
 
-.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title{
+.smile-icon{
+    width: 153px;
+    margin: 42px 0 0 24px;
+}
+
+.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title, .smile-title{
     font-family: Lato;
     font-size: 22px;
     font-weight: 700;

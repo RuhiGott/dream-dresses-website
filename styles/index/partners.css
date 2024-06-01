@@ -4,6 +4,7 @@
     padding-bottom: 120px;
 }
 
+
 .our-partners{
     font-family: Lato;
     font-size: 40px;
@@ -12,6 +13,7 @@
     text-align: center;
     margin: 0;
     margin-bottom: 80px;
+
 }
 
 
@@ -23,15 +25,16 @@
     column-gap: 15%;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
-.partner{
+.csa, .twc, .aarna, .goonj, .ahaana, .smile{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.pink-circle{
+.csa-circle{
     width: 204px;
     height: 204px;
     border-radius: 200px;
@@ -42,7 +45,7 @@
     
 }
 
-.dark-blue-circle{
+.twc-circle{
     width: 204px;
     height: 204px;
     border-radius: 200px;
@@ -52,7 +55,7 @@
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
 
-.yellow-circle{
+.aarna-circle{
     width: 204px;
     height: 204px;
     border-radius: 200px;
@@ -62,7 +65,7 @@
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
 
-.light-blue-circle{
+.goonj-circle{
     width: 204px;
     height: 204px;
     border-radius: 200px;
@@ -72,12 +75,22 @@
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
 
-.pink-circle{
+.ahaana-circle{
     width: 204px;
     height: 204px;
     border-radius: 200px;
     background-color: white;
     border: 8px solid rgb(219, 89, 89);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.smile-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(84, 124, 161);
     margin-bottom: 37px;
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
@@ -107,7 +120,12 @@
     margin: 20px 21px 43px 24px;
 }
 
-.partner-title{
+.smile-icon{
+    width: 153px;
+    margin: 42px 0 0 24px;
+}
+
+.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title, .smile-title{
     font-family: Lato;
     font-size: 22px;
     font-weight: 700;
