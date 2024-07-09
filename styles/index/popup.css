@@ -34,7 +34,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .popup-title{
@@ -44,7 +44,7 @@
     font-weight: 700;
     color: rgb(45,56,95);
     text-align: center;
-    width: 240px;
+    width: 300px;
 }
 
 .popup-text{
@@ -135,22 +135,23 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 15px;
+        gap: 13px;
     }
 
     .popup-title{
-        font-size: 29px;
+        font-size: 27px;
+        width: 240px;
     }
     
     .popup-text{
-        font-size: 18px;
+        font-size: 17px;
         width: 230px;
     }
 
     .popup-button{
         font-size: 17px;
-        height: 40px;
-        width: 140px;
+        height: 38px;
+        width: 125px;
     }
     
     .popup-img{
