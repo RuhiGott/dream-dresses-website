@@ -1,0 +1,171 @@
+.volunteering-pvsa {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.pvsa-circle{
+    width: 190px;
+    height: 190px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(84, 124, 161);
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.pvsa-img{
+    width: 150px;
+    margin: 26px 22px
+}
+
+.pvsa-title {
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(45,56,95);
+    text-align: center;
+    width: 510px;
+    margin: 0;
+}
+
+.pvsa-text {
+    width: 520px;
+    color: rgb(103,103,103);
+    text-align: center;
+    font-family: Zilla Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.pvsa-text-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+    .volunteering-pvsa {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 800px) {
+    .volunteering-pvsa {
+        gap: 1%;
+    }
+
+    .pvsa-circle{
+        width: 140px;
+        height: 140px;
+        border: 6px solid rgb(84, 124, 161);
+    }
+    
+    .pvsa-img{
+        width: 110px;
+        margin: 19px 16px
+    }
+
+    .pvsa-title {
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 700;
+        color: rgb(45,56,95);
+        text-align: center;
+        width: 420px;
+        margin: 0;
+    }
+    
+    .pvsa-text {
+        width: 440px;
+        color: rgb(103,103,103);
+        text-align: center;
+        font-family: Zilla Slab;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 300;
+    }
+}
+
+@media (max-width: 625px) {
+    .volunteering-pvsa {
+        gap: 16px;
+    }
+
+    .pvsa-circle{
+        width: 105px;
+        height: 105px;
+        border: 5px solid rgb(84, 124, 161);
+    }
+    
+    .pvsa-img{
+        width: 80px;
+        margin: 15px 13.5px
+    }
+
+    .pvsa-title {
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(45,56,95);
+        text-align: center;
+        width: 250px;
+        margin: 0;
+    }
+    
+    .pvsa-text {
+        width: 300px;
+        color: rgb(103,103,103);
+        text-align: center;
+        font-family: Zilla Slab;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .pvsa-text-flex {
+        gap: 8px;
+    }
+
+    .volunteering-pvsa {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pvsa-title {
+        font-family: Lato;
+        font-size: 20px;
+        font-weight: 700;
+        color: rgb(45,56,95);
+        text-align: center;
+        width: 210px;
+        margin: 0;
+    }
+    
+    .pvsa-text {
+        width: 200px;
+        color: rgb(103,103,103);
+        text-align: center;
+        font-family: Zilla Slab;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    .pvsa-text-flex {
+        gap: 10px;
+    }
+
+    .volunteering-pvsa {
+        gap: 12px;
+    }
+
+}
