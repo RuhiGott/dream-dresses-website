@@ -80,7 +80,7 @@
 
 }
 
-@media (max-width: 1100px){
+@media (max-width: 1150px){
     .benevity-text{
         width: 800px
     }
@@ -89,6 +89,12 @@
 @media (max-width: 1000px){
     .fundraising-text{
         width: 800px
+    }
+}
+
+@media (max-width: 930px){
+    .benevity-text{
+        width: 700px
     }
 }
 
