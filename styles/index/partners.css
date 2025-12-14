@@ -28,7 +28,7 @@
 
 }
 
-.csa, .twc, .aarna, .goonj, .ahaana, .smile, .sseva{
+.csa, .twc, .aarna, .goonj, .ahaana, .smile, .sseva, .ratna{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,6 +105,16 @@
     box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
 }
 
+.ratna-circle{
+    width: 204px;
+    height: 204px;
+    border-radius: 200px;
+    background-color: white;
+    border: 8px solid rgb(160, 198, 234);
+    margin-bottom: 37px;
+    box-shadow: 0px 5px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
 .csa-icon{
     width: 129px;
     margin: 41px 42px 41px 33px;
@@ -140,7 +150,12 @@
     margin: 26px 0 0 26px;
 }
 
-.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title, .smile-title, .sseva-title{
+.ratnanidhi-icon{
+    width: 153px;
+    margin: 26px 0 0 26px;
+}
+
+.csa-title, .twc-title, .aarna-title, .goonj-title, .ahaana-title, .smile-title, .sseva-title, .ratna-title{
     font-family: Lato;
     font-size: 22px;
     font-weight: 700;
